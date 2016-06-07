@@ -1,0 +1,43 @@
+@import 'variables';
+
+@mixin shadow($shadpx, $trans) {
+    -webkit-box-shadow: $shadpx rgba(0, 0, 0, $trans);
+    -moz-box-shadow: $shadpx rgba(0, 0, 0, $trans);
+    box-shadow: $shadpx rgba(0, 0, 0, $trans);
+}
+@mixin shadowin($shainpx, $transin) {
+    -webkit-box-shadow: inset $shainpx rgba(0, 0, 0, $transin);
+    -moz-box-shadow: inset $shainpx rgba(0, 0, 0, $transin);
+    box-shadow: inset $shainpx rgba(0, 0, 0, $transin);
+}
+
+.content-tit {
+    background: linear-gradient(to right, #202A35, #016D77);
+    padding: 5px;
+    @include shadow(0px 4px 5px 1px, 0.55);
+    z-index: 2;
+    width: 800px;
+}
+
+.content-tit-main {
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+}
+
+.content-tit-alter {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 50px;
+}
+
+.content-det {
+    background: rgba(0, 43, 45, 0.2);
+    margin-top: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 790px;
+    padding: 10px;
+    margin-left: 5px;
+    @include shadowin(0px 3px 4px -3px, 0.55);
+}

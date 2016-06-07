@@ -1,0 +1,12 @@
+{
+    "name": "Bit-bower",
+    "description": "Web Project für Benzinger-IT System",
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap-sass-official": "~3.1.1",
+        "jquery": "latest",
+        "bootstrap": "3.0",
+        "angular": "1.5.x",
+        "font-awsome": "latest"
+    }
+}

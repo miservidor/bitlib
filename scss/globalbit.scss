@@ -1,0 +1,19 @@
+
+@import 'main';
+@import 'img';
+@import 'navbar';
+@import 'franse';
+@import 'fonts';
+@import 'strukture';
+@import 'content';
+@import 'footer';
+@import 'variables';
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+@import 'mediumscreen';
+@import 'smallscreen';

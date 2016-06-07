@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1400px) {
+
+@import 'variables';
+/*===============FONTS======*/
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.font-s {
+    font-size: 18px;
+}
+
+.font-m {
+    font-size: 18px;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-grey {
+    color: #333;
+}
+hg {
+    font-size: 40px;
+    color: $color-gelb;
+    font-family: $font-stack;
+}
+
+hw {
+    font-size: 40px;
+    color: white;
+    font-family: $font-stack;
+}
+
+hb {
+    font-size: 40px;
+    color: $color-calipso;
+    font-family: $font-stack;
+}
+
+hb-m {
+    font-size: 30px;
+    color: $color-calipso;
+    font-family: $font-stack;
+}
+.titel-gross {
+    font-size: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 4px #202A35;
+}
+
+.title {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.weiss {
+    color: #FFF;
+    font-family: $font-stack;
+}
+
+.grey {
+    color: #444;
+    font-family: $font-stack;
+}
+
+
+}

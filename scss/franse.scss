@@ -1,0 +1,134 @@
+@mixin shadow($shadpx, $trans) {
+    -webkit-box-shadow: $shadpx rgba(0, 0, 0, $trans);
+    -moz-box-shadow: $shadpx rgba(0, 0, 0, $trans);
+    box-shadow: $shadpx rgba(0, 0, 0, $trans);
+}
+
+@mixin shadowin($shainpx, $transin) {
+    -webkit-box-shadow: inset $shainpx rgba(0, 0, 0, $transin);
+    -moz-box-shadow: inset $shainpx rgba(0, 0, 0, $transin);
+    box-shadow: inset $shainpx rgba(0, 0, 0, $transin);
+}
+
+.franse {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+.carousel-caption {
+        height: 800px !important;
+        position: initial !important;
+}
+.aviso {
+    width: 100%;
+    height: 800px;
+    padding: 100px;
+}
+
+.img-som {
+    @include shadow(0px 4px 5px 1px, 0.55);
+    -ms-transform: rotate(3deg);
+    /* IE 9 */
+    -webkit-transform: rotate(3deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    border: solid 5px;
+    border-color: #FFFFFF;
+}
+
+
+.will {
+    min-height: 100vh;
+    background-color: #007179;
+    @include shadowin(0px 5px 30px -3px, 0.55);
+    top: 40px;
+}
+
+.gruppe {
+    min-height: 100vh;
+    background-image: url('../images/gruppe2.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+    background-color: #dbe9c5;
+    @include shadowin(0px 5px 30px -3px, 0.55);
+    padding-left: 10%;
+}
+
+.img-trans {
+    min-height: 100vh;
+    //min-height: 70vh;
+    background-image: url('../images/bg/fondo_1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+.bg-fade {
+    min-height: 100vh;
+    background-image: url('../images/bg/fondo_singen.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+
+.spektrum {
+    min-height: 100vh;
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+    background-color: white;
+    @include shadowin(0px 5px 30px -3px, 0.55);
+}
+.index {
+    background-color: #016D77;
+    background-image: url('../images/bgteam.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+.team {
+    background-color: #FFF;
+    background-image: url('../images/bg4.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+// COLORS FRANSE
+
+.bg-weiss {
+    background-color: #FFFFFF;
+    padding-left: 10%;
+    padding-bottom: 100px !important;
+}
+
+.bg-gray {
+    background-color: #F5F5F5;
+    padding-left: 10%;
+    padding-bottom: 100px !important;
+}
+
+.olive {
+    background-color: #dbe9c5;
+    @include shadowin(0px 5px 30px -3px, 0.55);
+    padding-left: 10%;
+    padding-bottom: 150px !important;
+}
+.azulp {
+    background-color: #5871C3;
+    padding-left: 10%;
+}
+
+//EFECT FRANSE
+.shadowin {
+        @include shadowin(0px 5px 30px -3px, 0.55);
+}
+
+.fullscreen {
+        min-height: 100vh;
+}

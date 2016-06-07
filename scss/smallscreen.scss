@@ -1,0 +1,103 @@
+
+@media only screen and (max-width: 480px) {
+
+@import 'variables';
+/*===============FONTS======*/
+h1 {
+    font-size: 20px !important;
+}
+
+h2 {
+    font-size: 18px !important;
+}
+
+h3 {
+    font-size: 16px !important;
+}
+
+p {
+    font-size: 10px;
+}
+
+.font-s {
+    font-size: 12px;
+}
+
+.font-m {
+    font-size: 12px;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-grey {
+    color: #333;
+}
+hg {
+    font-size: 20px;
+    color: $color-gelb;
+    font-family: $font-stack;
+}
+
+hw {
+    font-size: 20px;
+    color: white;
+    font-family: $font-stack;
+}
+
+hb {
+    font-size: 20px;
+    color: $color-calipso;
+    font-family: $font-stack;
+}
+
+hb-m {
+    font-size: 20px;
+    color: $color-calipso;
+    font-family: $font-stack;
+}
+hb-w {
+    font-size: 20px;
+    color: white;
+    font-family: $font-stack;
+}
+.titel-gross {
+    font-size:25px;
+    color: #FFF;
+    text-shadow: 1px 1px 4px #202A35;
+}
+
+.title {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.weiss {
+    color: #FFF;
+    font-family: $font-stack;
+}
+
+.grey {
+    color: #444;
+    font-family: $font-stack;
+}
+
+
+.contenido {
+    padding: 30px !important;
+}
+
+.navbar-brand {
+    padding: 0px 20px 0px 20px !important;
+    margin: 0px !important;
+}
+
+.main-lat {
+    display: none;
+}
+.main-lat-osc {
+    display: none;
+}
+
+}

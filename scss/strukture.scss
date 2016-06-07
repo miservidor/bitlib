@@ -1,0 +1,86 @@
+/*===NAVEGACION====*/
+
+$color-claro: white;
+$color-oscuro: gray;
+
+@mixin flecha($color, $alpha, $size) {
+    color: rgba($color, $alpha);
+    font-size: $size;
+    text-align: center;
+    
+}
+/* FLECHA CLARA */
+.main-lat {
+    @include flecha($color-claro,0.7,80px);
+    padding-top: 20%;
+}
+
+.main-lat > a {
+    @include flecha($color-claro,0.7,80px);
+    padding-top: 20%;
+}
+
+.main-lat > a:hover {
+    @include flecha($color-claro,0.9,80px);
+    padding-top: 20%;
+}
+
+.main-unter {
+    @include flecha($color-claro,0.7,80px);
+    top: 50%;
+}
+
+.main-unter > a {
+    @include flecha($color-claro,0.7,80px);
+}
+
+.main-unter > a:hover {
+    @include flecha($color-claro,0.9,80px);
+}
+
+/* FLECHA OSCURA*/
+
+.main-lat-osc {
+    @include flecha($color-oscuro,0.7,80px);
+    padding-top: 20%;
+}
+
+.main-lat-osc > a {
+    @include flecha($color-oscuro,0.7,80px);
+    padding-top: 20%;
+}
+
+.main-lat-osc > a:hover {
+    @include flecha($color-oscuro,0.9,80px);
+    padding-top: 20%;
+}
+
+.main-unter-osc {
+    @include flecha($color-oscuro,0.7,80px);
+}
+
+.main-unter-osc > a {
+    @include flecha($color-oscuro,0.7,80px);
+}
+
+.main-unter-osc > a:hover {
+    @include flecha($color-oscuro,0.9,80px);
+}
+
+
+
+
+.contenido {
+    padding: 100px !important;
+}
+.fullscreen {
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 800px;
+}
+.unterclick {
+    color: #FFFFFF !important;
+    font-size: 30px;
+}
