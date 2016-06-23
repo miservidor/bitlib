@@ -9,6 +9,56 @@ $color-oscuro: gray;
     text-align: center;
     
 }
+.color-palette {
+    color: rgba(255,255,255,0.87);
+    font-size: 14px;
+    font-weight: 500;
+    width: 1160px;
+    padding-bottom: 60px;
+}
+
+.color-palette .color-group:first-child, .color-palette .color-group:nth-of-type(3n+1), .color-palette .color-group:last-child:first-child, .color-palette .color-group:last-child:nth-of-type(3n+1) {
+    clear: left;
+    margin-left: 0;
+}
+.color-palette .color-group li.main-color .name, .color-palette .color-group:last-child li.main-color .name {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.color-palette .color-group li.color .hex, .color-palette .color-group:last-child li.color .hex {
+    float: right;
+    text-transform: uppercase;
+}
+
+.color-palette .color-group, .color-palette .color-group:last-child {
+    float: left;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    width: 360px;
+    display: block;
+    font-family: 'Roboto';
+}
+
+.color-palette .color-group li.color, .color-palette .color-group:last-child li.color {
+    padding: 15px;
+}
+.color-palette .light-strong {
+    color: #fff;
+}
+
+.color-palette .dark {
+    color: rgba(0,0,0,0.87);
+}
+
+.color-palette .color-group li, .color-palette .color-group:last-child li {
+    list-style-type: none;
+}
+
+.color-palette .color-group li.main-color, .color-palette .color-group:last-child li.main-color {
+    border-bottom: 4px solid #fafafa;
+}
+
 /* FLECHA CLARA */
 .main-lat {
     @include flecha($color-claro,0.7,80px);

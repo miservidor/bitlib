@@ -11,10 +11,21 @@
 }
 
 .franse {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 60px;
+    padding-bottom: 80px;
+    
 }
+
+.franse-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .carousel-caption {
         height: 800px !important;
@@ -98,8 +109,14 @@
     background-position: right top;
     background-size: 100%;
 }
+.caja10 {
+    width: 50px;
+    height: 50px;
+}
 
 // COLORS FRANSE
+
+
 
 .bg-weiss {
     background-color: #FFFFFF;
@@ -126,7 +143,7 @@
 
 //EFECT FRANSE
 .shadowin {
-        @include shadowin(0px 5px 30px -3px, 0.55);
+        @include shadowin(0px 5px 20px -3px, 0.55);
 }
 
 .fullscreen {
