@@ -1,0 +1,40 @@
+.boton-factory {
+    margin: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+    background: linear-gradient(#fff, #ebebeb);
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    width: 350px;
+    height: 130px;
+    
+}
+
+.boton-factory:hover {
+    margin: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+    background: linear-gradient(#fff, dodgerblue);
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    width: 350px;
+    height: 130px;
+    color: #fff !important;
+}
+h3:hover {
+    color: #fff !important;
+}

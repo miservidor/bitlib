@@ -19,7 +19,6 @@ h4 {
     font-size: 14px !important;
 }
 
-
 p {
     font-size: 10px;
 }
@@ -106,10 +105,60 @@ hb-w {
 }
 
 .franse {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 60px;
     padding-bottom: 80px;
+}
+.franse-m {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.franse-b {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.bg-cloud {
+    min-height: 100vh;
+    background-image: url('../images/bg/fondo_cloud-s.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+.bg-trans-osc {
+    background-color: rgba(0, 50, 79, 0.4);
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.font-m {
+    font-size: 20px;
+}
+
+.font-m > h1 {
+    font-size: 30px !important;
+}
+
+.font-m > h2 {
+    font-size: 26px !important;
+}
+
+.font-m > h3 {
+    font-size: 24px !important;
+}
+.font-m > h4 {
+    font-size: 20px !important;
+}
+
+.font-m > p {
+    font-size: 14px !important;
+    color: #555;
 }
 
 }

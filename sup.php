@@ -30,6 +30,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="colors.php">Colors</a></li>
                         <li><a href="fonts.php">Fonts</a></li>
+                        <li><a href="animated.php">Animation</a></li>
                         <li><a href="backgrounds.php">Backgrounds</a></li>
                         <li><a href="img-effects.php">Images / Album</a></li>
                         <li><a href="bg-video.php">Videos</a></li>
@@ -41,7 +42,7 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Version Beta 0.5 Juni 2016</a></li>
+                <li><a href="#"><?php include 'version.php'; ?></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

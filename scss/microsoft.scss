@@ -1,0 +1,100 @@
+.pricehead {
+    background-color: #0072c6;
+    color: #fff;
+    margin: 2px;
+    font-size: 30px;
+    padding: 20px;
+}
+.pricenum {
+        background-color: #fbfbfb;
+    color: #555;
+    margin: 2px;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.pricenum > small {
+    font-size: 14px;
+}
+.mehrbut {
+    background-color: #999;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px !important;
+}
+
+.mehrbut:hover {
+    background-color: #fdb700;
+    color: #fff;
+        padding: 10px;
+    text-align: center;
+
+}
+.bg-trans-dark {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.bg-trans {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+.listazul {
+    background-color: #0072c6;
+    color: #fff;
+    padding: 10px;
+}
+.lista {
+       padding: 10px; 
+       font-size: 20px;
+}
+.centercol {
+    text-align: center;
+}
+#comp {
+    display: none;
+}
+.office-box-content {
+    min-height: 140px;
+}
+
+.mic-box {
+    margin: 20px;
+    padding: 30px;
+}
+
+.mic-box-content {
+    padding-top: 50px;
+}
+
+.mic-box-txt {
+    font-size: 18px;
+}
+
+.office {
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #eb3c00;
+}
+
+.office-box {
+    padding: 20px;
+}
+
+.office-box-head {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #666;
+}
+
+.office-box-content {
+    padding: 10px;
+    color: #555;
+    background-color: #fbfbfb;
+}
+
+.mic-tron {
+    background-image: url('../img/enterprise_fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}

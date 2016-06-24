@@ -71,3 +71,33 @@ background-color: $color-gray-2;
 .bg-gray-1 {
 background-color: $color-gray-1;
 }
+
+.bg-fade {
+    min-height: 100vh;
+    background-image: url('../images/bg/fondo_singen.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+.bg-fade-flex {
+    background-image: url('../images/bg/fondo_singen.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+.bg-cloud {
+    min-height: 100vh;
+    background-image: url('../images/bg/fondo_cloud.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+.bg-trans-osc {
+    background-color: rgba(0, 50, 79, 0.4);
+    padding: 50px;
+    padding-right: 150px;
+    height: 300px;
+}
+

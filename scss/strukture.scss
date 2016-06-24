@@ -116,10 +116,6 @@ $color-oscuro: gray;
 .main-unter-osc > a:hover {
     @include flecha($color-oscuro,0.9,80px);
 }
-
-
-
-
 .contenido {
     padding: 100px !important;
 }
@@ -133,4 +129,50 @@ $color-oscuro: gray;
 .unterclick {
     color: #FFFFFF !important;
     font-size: 30px;
+}
+
+.fbox {
+    margin: 2px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 10px;
+    background: linear-gradient(#fff, #ebebeb);
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.boxmenu {
+    height: 450px;
+    margin: 2px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 5px;
+    background: linear-gradient(#fff, #fbfbfb);
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.boxlogo {
+    min-height: 70px;
+}
+.boximg {
+    min-height: 140px; 
+}
+.boxtxt {
+    min-height: 160px;
+}
+.boxunter {
+    min-height: 100px;
 }

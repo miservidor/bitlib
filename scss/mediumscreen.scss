@@ -76,6 +76,54 @@ hb-m {
     color: #444;
     font-family: $font-stack;
 }
+.bg-cloud {
+    min-height: 100vh;
+    background-image: url('../images/bg/fondo_cloud-m.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+.bg-trans-osc {
+    background-color: rgba(0, 50, 79, 0.4);
+    padding: 50px;
+    padding-right: 150px;
+    height: 300px;
+}
+.box-carousel {
+    height: 400px;
+    padding: 20px;
+    margin-top: 100px;
+}
+.logos {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.font-m {
+    font-size: 30px;
+}
 
+.font-m > h1 {
+    font-size: 50px !important;
+}
+
+.font-m > h2 {
+    font-size: 45px !important;
+}
+
+.font-m > h3 {
+    font-size: 40px !important;
+}
+.font-m > h4 {
+    font-size: 30px !important;
+}
+
+.font-m > p {
+    font-size: 20px !important;
+}
+
+.halfscreen {
+        min-height: 80vh;
+}
 
 }

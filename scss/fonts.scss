@@ -24,6 +24,25 @@ p {
     font-size: 30px;
 }
 
+.font-m > h1 {
+    font-size: 50px !important;
+}
+
+.font-m > h2 {
+    font-size: 40px !important;
+}
+
+.font-m > h3 {
+    font-size: 40px !important;
+}
+.font-m > h4 {
+    font-size: 30px !important;
+    color: #7ed5fa;
+}
+.font-m > p {
+    font-size: 20px !important;
+}
+
 .font-l {
     font-size: 40px;
 }
@@ -90,4 +109,16 @@ hb-w {
 
 .text-center {
  text-align: justify !important;
+}
+.box-carousel {
+    font-family: 'Roboto condensed', sans-serif !important;
+    font: 16px/20px;
+}
+.box-title {
+    font-family: 'Roboto condensed', sans-serif !important;
+    font-size: 40px;
+}
+
+.txtbut {
+    color: #555;
 }

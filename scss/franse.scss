@@ -15,7 +15,22 @@
     padding-right: 100px;
     padding-top: 60px;
     padding-bottom: 80px;
+    margin: 0px;
     
+}
+
+.franse-m {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.franse-b {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .franse-footer {
@@ -26,10 +41,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+.box-carousel {
+    height: 600px;
+    padding: 50px;
+    margin-top: 200px;
+}
 .carousel-caption {
-        height: 800px !important;
-        position: initial !important;
+/*        height: 800px !important;
+        position: initial !important; */
 }
 .aviso {
     width: 100%;
@@ -67,6 +86,11 @@
     padding-left: 10%;
 }
 
+.bg-img-sel {
+    background-image: url('../img/selectline/selectlinetrans2.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
 .img-trans {
     min-height: 100vh;
     //min-height: 70vh;
@@ -76,13 +100,6 @@
     background-size: 100%;
 }
 
-.bg-fade {
-    min-height: 100vh;
-    background-image: url('../images/bg/fondo_singen.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 100%;
-}
 
 
 .spektrum {
@@ -148,4 +165,16 @@
 
 .fullscreen {
         min-height: 100vh;
+}
+
+.halfscreen {
+        min-height: 60vh;
+}
+.mscreen {
+        min-height: 90vh;
+}
+.flecha {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
 }

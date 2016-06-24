@@ -20,3 +20,24 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
 }
+
+.experiment:hover {
+
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipOutY;
+  animation-name: flipOutY;
+}
+.zoomfoto:hover {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+.filtergray {
+    -webkit-filter: grayscale(80%); /* Chrome, Safari, Opera */
+    filter: grayscale(80%);
+}
+.filtergray:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+
+}

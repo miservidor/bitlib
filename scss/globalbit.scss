@@ -14,11 +14,18 @@
 @import 'footer';
 @import 'maps';
 @import 'code';
+@import 'compatible';
+@import 'bootstrap-cambios';
+/* archivos de esta web*/
+@import 'selectline';
+@import 'microsoft';
+@import 'grid-gallery';
 
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  font-size: 16px;
 }
 
 @import 'mediumscreen';
