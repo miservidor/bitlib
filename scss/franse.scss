@@ -1,3 +1,4 @@
+/* ==============franse.scss ==============*/
 @mixin shadow($shadpx, $trans) {
     -webkit-box-shadow: $shadpx rgba(0, 0, 0, $trans);
     -moz-box-shadow: $shadpx rgba(0, 0, 0, $trans);
@@ -33,6 +34,24 @@
     padding-bottom: 40px;
 }
 
+.franse-web {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.franse-in {
+    padding-left: 100px !important;
+    padding-bottom: 100px !important;
+    padding-right: 100px !important;
+    text-align: justify;
+}
+.franse-lat {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    text-align: justify;
+}
 .franse-footer {
     padding-left: 100px;
     padding-right: 100px;

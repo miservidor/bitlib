@@ -1,4 +1,4 @@
-
+/* ==============GLOBALBIT.scss ==============*/
 @import 'variables';
 @import 'main';
 @import 'bg';
@@ -17,10 +17,10 @@
 @import 'compatible';
 @import 'bootstrap-cambios';
 /* archivos de esta web*/
-@import 'selectline';
+//@import 'selectline';
 @import 'microsoft';
 @import 'grid-gallery';
-
+@import 'regber';
 
 body {
   font: 100% $font-stack;
